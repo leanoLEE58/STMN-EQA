@@ -22,7 +22,7 @@
 
 **First framework to apply reference station-based transfer learning for earthquake precursor detection, achieving anomaly extraction without interference from precursor signals by training on seismically inactive regions.**
 
-[📄 Preprint (Coming Soon)](#) · [💻 Code (Coming Soon)](#-code-coming-soon) · [📊 Results](#-experimental-results) · [🗃️ Data](#-data-availability)
+[📄 Preprint](https://drive.google.com/file/d/1X3wrhKIsfLLT0wf5ZM715S5mYhyWloWw/view?usp=sharing) · [💻 Code (Coming Soon)](#-code-coming-soon) · [📊 Results](#-experimental-results) · [🗃️ Data](#-data-availability)
 
 </div>
 
