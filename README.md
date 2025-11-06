@@ -213,7 +213,11 @@ A_{\text{target}} = \text{Det}(|\hat{X}_{\text{target},i} - X_{\text{target},i}|
 - **IMF4**: Stress changes and fluid migration (days to weeks)  
 - **IMF5**: High-frequency signals related to microcrack formation (hours to days)
 
+<div align="center">
+
+<img src="https://github.com/user-attachments/assets/a006f184-1594-479c-8c11-cfd16b9331c2" width="100%" alt="Luding Sigmoidal Analysis"/>
 ---
+**Figure 3-1**: Results of SVMD. 
 
 ### 2. TimesNet Temporal Modeling
 
@@ -223,7 +227,7 @@ A_{\text{target}} = \text{Det}(|\hat{X}_{\text{target},i} - X_{\text{target},i}|
 
 <img src="https://github.com/user-attachments/assets/c9ab9070-e889-4d34-ad82-ee453f0265ad" width="95%" alt="TimesNet Architecture"/>
 
-**Figure 3**: TimesNet architecture for multi-periodic temporal modeling. Identifies dominant periods via FFT (P₁, P₂, P₃), reshapes 1D sequences into 2D tensors, processes through multi-scale inception blocks, and aggregates across periods for comprehensive pattern recognition.
+**Figure 3-2**: TimesNet architecture for multi-periodic temporal modeling. Identifies dominant periods via FFT (P₁, P₂, P₃), reshapes 1D sequences into 2D tensors, processes through multi-scale inception blocks, and aggregates across periods for comprehensive pattern recognition.
 
 </div>
 
@@ -342,18 +346,16 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 #### Temporal Analysis: Sigmoidal Anomaly Accumulation
 
 <div align="center">
+  
+<img width="800" height="300" alt="Image" src="https://github.com/user-attachments/assets/4754a94e-86c7-4271-a9b6-cb8d4b7eaa73" />
 
-<img src="https://github.com/user-attachments/assets/a006f184-1594-479c-8c11-cfd16b9331c2" width="100%" alt="Luding Sigmoidal Analysis"/>
-
-**Figure 5**: Sigmoidal pattern analysis for Ms 6.8 Luding earthquake. **(Left)**: Anomaly accumulation for all 5 stations showing transition from linear (3-6 months before) to sigmoidal (1-3 months before). **(Right)**: Detailed fitting for Kangding station (closest to epicenter, 23.5 km) with inflection point at **39±2.2 days** before the earthquake. Red curve shows sigmoidal fit (R²=0.968), demonstrating clear nonlinear acceleration phase.
+**Figure 51**: Sigmoidal pattern analysis for Ms 6.8 Luding earthquake. **(Left)**: Anomaly accumulation for all 5 stations showing transition from linear (3-6 months before) to sigmoidal (1-3 months before). **(Right)**: Detailed fitting for Kangding station (closest to epicenter, 23.5 km) with inflection point at **39±2.2 days** before the earthquake. Red curve shows sigmoidal fit (R²=0.968), demonstrating clear nonlinear acceleration phase.
 
 </div>
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/8207edd5-c75d-4186-adac-afbe4a752a3e" width="85%" alt="Table 3"/>
 
-**Table 3**: Statistical comparison of sigmoidal fitting characteristics across monitoring stations and random periods. All earthquake-related Ratio values (1.11-1.27) significantly exceed random baseline (0.66-0.73, shown in gray rows), confirming genuine precursor patterns. R²<sub>S-curve</sub> values generally decrease with epicentral distance.
 
 </div>
 
@@ -368,6 +370,7 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 | 53006 (Yongsheng) | 353.0 | 0.915* | 1.18 | 38±3.2 |
 | **Random Baseline** | N/A | 0.651-0.704 | 0.66-0.73 | N/A |
 
+**Table 3**: Statistical comparison of sigmoidal fitting characteristics across monitoring stations and random periods. All earthquake-related Ratio values (1.11-1.27) significantly exceed random baseline (0.66-0.73, shown in gray rows), confirming genuine precursor patterns. R²<sub>S-curve</sub> values generally decrease with epicentral distance.
 *Stations 53022 and 53006 showed interference from concurrent local earthquakes (Ms 4.4 Weining and Ms 4.6 Ninglang)
 
 **Statistical Significance**: All earthquake-related Ratio values (1.11-1.27) significantly exceed random baseline (0.66-0.73), confirming genuine precursor patterns.
@@ -378,7 +381,7 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/a9a3f02e-643a-491e-b359-d7ccef9ddd72" width="100%" alt="Luding Spatial Analysis"/>
+<img width="3113" height="1325" alt="Image" src="https://github.com/user-attachments/assets/16b56630-832f-4fc2-aa27-9486ee180474" />
 
 **Figure 6**: Spatial-temporal characteristics for Luding earthquake. **(Left)**: Inflection point timing shows weak distance dependence (y = 38.56 - 0.0079x, R² = 0.163, p = 0.070), with consistent timing of **37.0±2.7 days** across 23.5-353.0 km range. **(Right)**: Cumulative anomaly counts follow power law: **I(r) = 132.53 × r<sup>-0.255±0.090</sup>** (R² = 0.719, p = 0.070), indicating strain anomaly intensity decreases with epicentral distance. Markers with error bars denote stations affected by concurrent local earthquakes.
 
@@ -400,8 +403,8 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 #### Consistent Sigmoidal Pattern
 
 <div align="center">
-
-<img src="https://github.com/user-attachments/assets/8c2da755-8914-439c-9f14-1921d3f843ed" width="100%" alt="Changning Sigmoidal Analysis"/>
+  
+<img width="1919" height="893" alt="Image" src="https://github.com/user-attachments/assets/7fe6e675-a77b-4f41-8b97-35328467877d" />
 
 **Figure 7**: Ms 6.0 Changning earthquake analysis. **(Left)**: Anomaly accumulation for 5 stations. Station 53006 (474.5 km, outside 380 km effective radius) shows linear trend. Other stations exhibit sigmoidal acceleration 1-3 months before event. **(Right)**: Detailed fitting for Luzhou station (57.8 km) with inflection point at **40±2.1 days** before the earthquake, consistent with Luding earthquake findings.
 
@@ -409,7 +412,7 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/d4925e51-4d52-47a9-87d1-58915321a5f5" width="100%" alt="Changning Spatial Analysis"/>
+<img width="3116" height="1325" alt="Image" src="https://github.com/user-attachments/assets/15fd221d-a1f2-4c9d-81cf-5833fd08ecab" />
 
 **Figure 8**: Spatial characteristics for Changning earthquake. **(Left)**: Inflection point timing within 380 km effective radius shows approximate linear relationship with distance. **(Right)**: Spatial distribution map with power law fitting. Square marker denotes station 53006 (outside effective radius) affected by local Ms 3.4 earthquake interference. Circle sizes proportional to cumulative anomaly counts.
 
@@ -495,6 +498,7 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 <div align="center">
 
 <img width="477" height="127" alt="Image" src="https://github.com/user-attachments/assets/c499f261-56b0-4d09-8dc7-02cd256d7642" />
+
 **Table 6**: Fixed vs. trainable weight strategies comparison (** p < 0.01, 30 runs with different random seeds). Fixed distance-based weights achieve significantly better spatial correlation (0.67±0.05 vs. 0.52±0.08) and sigmoidal pattern recognition (Ratio 1.27±0.09 vs. 1.09±0.12).
 
 </div>
