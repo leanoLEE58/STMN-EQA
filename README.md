@@ -7,7 +7,7 @@
 [![JCR](https://img.shields.io/badge/JCR-Q1%20CAS%20Zone%201-red)](https://www.tandfonline.com/journals/tbed20)
 [![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange)](https://github.com/leanoLEE58/STMN-EQA)
 
-**Big Earth Data (Taylor & Francis) - Accepted for Publication**
+**Big Earth Data (Taylor & Francis) - Accepted for Publication（DOI:10.1080/20964471.2025.2581423）**
 
 [Jiayi Li](mailto:jiayilee@stu.ouc.edu.cn)<sup>1 </sup>, [Zike Ma](mailto:mazike@stu.ouc.edu.cn)</sup>, [Chengquan Chi](mailto:chichengquan@hainnu.edu.cn)<sup>2</sup>, [Haiyong Zheng](mailto:zhenghaiyong@ouc.edu.cn)<sup>1</sup>, [Zining Yu](mailto:yuzining@ouc.edu.cn)<sup>1*</sup>
 
@@ -675,35 +675,18 @@ bash scripts/reproduce_paper_results.sh
 
 ## 📚 Citation
 
-**Journal Article** (Once published, will update with DOI):
+**Journal Article** (Once published, DOI:10.1080/20964471.2025.2581423):
 
 ```bibtex
-@article{li2025stmneqa,
-  title={Reference station-based transfer learning for earthquake anomaly extraction 
-         from borehole strain data related to two earthquakes in China},
-  author={Li, Jiayi and Ma, Zike and Chi, Chengquan and Zheng, Haiyong and Yu, Zining},
-  journal={Big Earth Data},
-  year={2025},
-  publisher={Taylor \& Francis},
-  note={Accepted for publication}
+@article{doi:10.1080/20964471.2025.2581423,
+author = {li,jiayi and Ma,Zike and Chi,Chengquan and Zheng,Haiyong and Yu,Zining},
+title = {Reference station-based transfer learning for earthquake anomaly extraction from borehole strain data related to two earthquakes in China},
+journal = {Big Earth Data},
+year = {2025},
+doi = {10.1080/20964471.2025.2581423},
+
 }
 ```
-
-**Preprint** (Once available):
-
-```bibtex
-@misc{li2025stmneqa_preprint,
-  title={Reference station-based transfer learning for earthquake anomaly extraction 
-         from borehole strain data related to two earthquakes in China},
-  author={Li, Jiayi and Ma, Zike and Chi, Chengquan and Zheng, Haiyong and Yu, Zining},
-  year={2025},
-  eprint={arXiv:XXXX.XXXXX},
-  archivePrefix={arXiv},
-  primaryClass={physics.geo-ph}
-}
-```
-
----
 
 ## 🙏 Acknowledgments
 
