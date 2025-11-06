@@ -5,7 +5,6 @@
 [![Journal](https://img.shields.io/badge/Journal-Big%20Earth%20Data%20(Accepted)-brightgreen)](https://www.tandfonline.com/journals/tbed20)
 [![IF](https://img.shields.io/badge/Impact%20Factor-4.2-blue)](https://www.tandfonline.com/journals/tbed20)
 [![JCR](https://img.shields.io/badge/JCR-Q1%20CAS%20Zone%201-red)](https://www.tandfonline.com/journals/tbed20)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange)](https://github.com/leanoLEE58/STMN-EQA)
 
 **Big Earth Data (Taylor & Francis) - Accepted for Publication**
@@ -447,7 +446,7 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/1cbac3bb-93aa-4e99-adb9-f3a04147c09e" width="90%" alt="Table 4"/>
+<img width="501" height="295" alt="Image" src="https://github.com/user-attachments/assets/2356cf51-42cb-4b8a-96cd-46c5e8caa07c" />
 
 **Table 4**: Performance comparison across time series models (mean ± std over 30 independent runs, ** p < 0.01 vs. others using paired t-tests). TimesNet (highlighted) achieves superior performance across all metrics during both normal and earthquake periods.
 
@@ -470,7 +469,7 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/bdb91a4b-c8f0-4a69-a944-09ff402070f1" width="95%" alt="Table 5"/>
+<img width="540" height="275" alt="Image" src="https://github.com/user-attachments/assets/e4a09290-1e47-477b-bf07-9ab5732eef9c" />
 
 **Table 5**: Domain contribution analysis across earthquake and normal periods (** p < 0.01, * p < 0.05 vs. temporal-only baseline using paired t-tests over 30 runs). Progressive integration of frequency and spatial domains yields cumulative performance improvements.
 
