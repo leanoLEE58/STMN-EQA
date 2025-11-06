@@ -217,6 +217,7 @@ A_{\text{target}} = \text{Det}(|\hat{X}_{\text{target},i} - X_{\text{target},i}|
 
 <img src="https://github.com/user-attachments/assets/a006f184-1594-479c-8c11-cfd16b9331c2" width="100%" alt="Luding Sigmoidal Analysis"/>
 ---
+
 **Figure 3-1**: Results of SVMD. 
 
 ### 2. TimesNet Temporal Modeling
