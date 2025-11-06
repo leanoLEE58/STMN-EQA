@@ -522,7 +522,6 @@ S(t; a, b, c, d) = \frac{a}{1 + e^{-b(t-c)}} + d
 ### 🚧 Repository Under Construction
 
 **Planned Structure**:
-
 ```
 STMN-EQA/
 ├── README.md                          # This file
