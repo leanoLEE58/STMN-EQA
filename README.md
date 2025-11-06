@@ -643,34 +643,6 @@ python scripts/analyze_anomalies.py \
 
 ---
 
-### 🔬 Reproducing Paper Results
-
-**Step 1: Download Earthquake Catalog**
-```bash
-# China Earthquake Network Center data
-wget http://data.earthquake.cn/catalog/luding_2022.csv
-wget http://data.earthquake.cn/catalog/changning_2019.csv
-```
-
-**Step 2: Prepare Borehole Strain Data**
-```bash
-# Contact corresponding author for data access
-# Email: yuzining@ouc.edu.cn
-# Subject: "STMN-EQA Data Request"
-```
-
-**Step 3: Run Full Pipeline**
-```bash
-# Automated reproduction script
-bash scripts/reproduce_paper_results.sh
-```
-
-**Expected Output**:
-- Sigmoidal fitting parameters (Table 3 in paper)
-- Spatial correlation plots (Figure 6 & 8 in paper)
-- Performance comparison tables (Table 4 & 5 in paper)
-
----
 
 ## 📚 Citation
 
