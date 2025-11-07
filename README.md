@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![Journal](https://img.shields.io/badge/Journal-Big%20Earth%20Data%20(Accepted)-brightgreen)](https://www.tandfonline.com/journals/tbed20)
-[![IF](https://img.shields.io/badge/Impact%20Factor-4.2-blue)](https://www.tandfonline.com/journals/tbed20)
+[![Journal](https://img.shields.io/badge/Journal-Big%20Earth%20Data%20-brightgreen)](https://www.tandfonline.com/journals/tbed20)
+[![IF](https://img.shields.io/badge/Impact%20Factor-4.5-blue)](https://www.tandfonline.com/journals/tbed20)
 [![JCR](https://img.shields.io/badge/JCR-Q1%20CAS%20Zone%201-red)](https://www.tandfonline.com/journals/tbed20)
 [![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange)](https://github.com/leanoLEE58/STMN-EQA)
 
@@ -22,7 +22,7 @@
 
 **First framework to apply reference station-based transfer learning for earthquake precursor detection, achieving anomaly extraction without interference from precursor signals by training on seismically inactive regions.**
 
-[📄 Preprint](https://drive.google.com/file/d/1X3wrhKIsfLLT0wf5ZM715S5mYhyWloWw/view?usp=sharing) · [💻 Code (Coming Soon)](#-code-coming-soon) · [📊 Results](#-experimental-results) · [🗃️ Data](#-data-availability)
+[📄 Paper](https://www.tandfonline.com/doi/epdf/10.1080/20964471.2025.2581423?needAccess=true) · [💻 Code (Coming Soon)](#-code-coming-soon) · [📊 Results](#-experimental-results) · [🗃️ Data](#-data-availability)
 
 </div>
 
