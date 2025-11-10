@@ -7,7 +7,7 @@
 [![JCR](https://img.shields.io/badge/JCR-Q1%20CAS%20Zone%201-red)](https://www.tandfonline.com/journals/tbed20)
 [![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange)](https://github.com/leanoLEE58/STMN-EQA)
 
-**Big Earth Data (Taylor & Francis) - Accepted for Publication（DOI:10.1080/20964471.2025.2581423）**
+**Big Earth Data (Taylor & Francis) - Publication（DOI:10.1080/20964471.2025.2581423）**
 
 [Jiayi Li](mailto:jiayilee@stu.ouc.edu.cn)<sup>1 </sup>, [Zike Ma](mailto:mazike@stu.ouc.edu.cn)</sup>, [Chengquan Chi](mailto:chichengquan@hainnu.edu.cn)<sup>2</sup>, [Haiyong Zheng](mailto:zhenghaiyong@ouc.edu.cn)<sup>1</sup>, [Zining Yu](mailto:yuzining@ouc.edu.cn)<sup>1*</sup>
 
